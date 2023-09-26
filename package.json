@@ -1,0 +1,19 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js server",
+    "client": "node index.js client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^6.10.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.7.2"
+  }
+}
